@@ -251,3 +251,44 @@ footer {
 .product-card:hover p {
     color: black;
 }
+.luxury-footer {
+    background: #050505;
+    padding: 60px 20px 20px;
+    color: #ddd;
+    border-top: 1px solid #d4af37;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    text-align: center;
+}
+
+
+.footer-box {
+    width: 280px;
+}
+
+
+.footer-box h3 {
+    color: #d4af37;
+    font-size: 22px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+
+.footer-box p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+
+.copyright {
+    text-align: center;
+    margin-top: 40px;
+    color: #888;
+}
