@@ -136,3 +136,48 @@ footer {
     background: white;
     transform: scale(1.05);
 }
+/* Luxury Gallery */
+
+.gallery {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.gallery-item {
+    width: 260px;
+    min-height: 180px;
+    padding: 30px 20px;
+    border: 1px solid #d4af37;
+    border-radius: 15px;
+    background: #111;
+    transition: 0.3s;
+}
+
+.gallery-item h3 {
+    color: #d4af37;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.gallery-item p {
+    color: #ddd;
+    font-size: 16px;
+}
+
+.gallery-item:hover {
+    transform: translateY(-10px);
+    background: #d4af37;
+}
+
+.gallery-item:hover h3,
+.gallery-item:hover p {
+    color: black;
+}
