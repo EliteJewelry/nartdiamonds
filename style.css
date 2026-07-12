@@ -99,3 +99,40 @@ footer {
         width: 90%;
     }
 }
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.9)
+    );
+}
+
+.hero h1 {
+    color: #d4af37;
+    font-size: 55px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #eeeeee;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+.hero button {
+    background: #d4af37;
+    color: black;
+    border: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background: white;
+    transform: scale(1.05);
+}
