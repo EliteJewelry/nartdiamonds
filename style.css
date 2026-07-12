@@ -181,3 +181,10 @@ footer {
 .gallery-item:hover p {
     color: black;
 }
+.hero img {
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 30px #d4af37;
+}
